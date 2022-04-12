@@ -58,7 +58,7 @@ describe('link tests', () => {
     linkPage.connect()
     linkPage.fillMfaCode(bobJonesCredentials.smsCode)
     linkPage.connect()
-    linkPage.successfulAccountLinkedScreenShouldBe('Your Uber account IS connected')
+    linkPage.successfulAccountLinkedScreenShouldBe('Your Uber account is connected')
   })
 
   it('should try a invalid link using Bob Jones credentials', () => {
